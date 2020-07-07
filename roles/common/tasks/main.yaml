@@ -1,0 +1,6 @@
+- name: 'download and install docker using apt'
+  apt:
+    pkg:
+    - docker
+    state: latest
+    update_cache: true
